@@ -1,13 +1,21 @@
 title: Hasan'ın Blogu
-description: Kişisel blog ve yazılarım
-baseurl: "/hasanmuruz"  # ÖNEMLİ: Repository adınız
+description: Modern ve etkileyici kişisel blog
+baseurl: "/hasanmuruz"
 url: "https://hasangokaymuruz.github.io"
 
-# Tema
-remote_theme: pages-themes/hacker@v0.2.0
+# Tema ayarları
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
 
 # Eklentiler
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+
+# Varsayılanlar
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
