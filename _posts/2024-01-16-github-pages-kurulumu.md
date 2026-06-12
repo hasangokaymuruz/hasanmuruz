@@ -1,27 +1,27 @@
 ---
 layout: post
-title: "GitHub Pages Kurulum Rehberi"
-date: 2024-01-16
-categories: [teknoloji, rehber]
+title: "🎨 İlk Blog Yazım - Modern Tema"
+date: 2024-01-15
+categories: [genel, tasarım]
 ---
 
-# GitHub Pages Nasıl Kurulur?
+# Merhaba Dünya! 👋
 
-GitHub Pages ile ücretsiz blog kurmak çok kolay!
+Bu benim **yeni modern temalı** ilk blog yazım!
 
-## Gereksinimler
+## 🎯 Neler Yaptık?
 
-- GitHub hesabı
-- Temel Markdown bilgisi
-- 10 dakika zamanınız
+- ✅ Siyah arkaplan
+- ✅ Kırmızı ve yeşil vurgular
+- ✅ Beyaz yazılar
+- ✅ Modern animasyonlar
+- ✅ Responsive tasarım
 
-## Adımlar
+## 💻 Kod Örneği
 
-1. Repository oluşturun
-2. `_config.yml` dosyası ekleyin
-3. `index.md` ana sayfasını oluşturun
-4. `_posts` klasöründe yazılar ekleyin
+```python
+def merhaba():
+    print("Merhaba Dünya!")
+    print("Modern tema harika! 🔥")
 
-## Sonuç
-
-Artık ücretsiz bir blogunuz var! 🎉
+merhaba()
