@@ -1,19 +1,13 @@
-title: hasangokaymuruz
-description: Deneyimlerimi ve düşüncelerimi paylaştığım kişisel blog
-baseurl: ""
+title: Hasan'ın Blogu
+description: Kişisel blog ve yazılarım
+baseurl: "/hasanmuruz"  # ÖNEMLİ: Repository adınız
 url: "https://hasangokaymuruz.github.io"
 
-# Dark tema
+# Tema
 remote_theme: pages-themes/hacker@v0.2.0
-
-# Dil ayarı
-lang: tr
 
 # Eklentiler
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
-
-# Sayfa ayarları
-permalink: /:year/:month/:day/:title/
