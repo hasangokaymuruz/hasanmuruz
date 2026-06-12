@@ -1,0 +1,19 @@
+title: Hasan Oğlu Kayumurz
+description: Deneyimlerimi ve düşüncelerimi paylaştığım kişisel blog
+baseurl: ""
+url: "https://hasanoglukayumurz.github.io"
+
+# Dark tema
+remote_theme: pages-themes/hacker@v0.2.0
+
+# Dil ayarı
+lang: tr
+
+# Eklentiler
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Sayfa ayarları
+permalink: /:year/:month/:day/:title/
