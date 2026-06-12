@@ -19,3 +19,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+giscus:
+  repo: hasangokaymuruz/hasanmuruz
+  repo_id: "R_kgDOS4qPmA"
+  category: Ideas
+  category_id: "DIC_kwDOS4qPmM4C_Cuh"
