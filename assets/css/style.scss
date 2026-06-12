@@ -1,0 +1,63 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Özel dark theme renkleri
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+  
+  &:hover {
+    color: #79c0ff;
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f0f6fc;
+  border-bottom: 1px solid #21262d;
+  padding-bottom: 10px;
+}
+
+code {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  padding: 3px 6px;
+  border-radius: 6px;
+  color: #79c0ff;
+}
+
+pre {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 4px solid #58a6ff;
+  padding-left: 16px;
+  color: #8b949e;
+  font-style: italic;
+}
+
+// Header
+.page-header {
+  background: linear-gradient(120deg, #1f6feb, #58a6ff);
+}
+
+// Footer
+.site-footer {
+  border-top: 1px solid #21262d;
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #8b949e;
+}
