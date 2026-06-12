@@ -5,24 +5,11 @@ title: Ana Sayfa
 
 # Hoş Geldiniz! 👋
 
-Merhaba, ben Hasan. Bu blogda deneyimlerimi, öğrendiklerimi ve düşüncelerimi paylaşıyorum.
+Merhaba! Ben Hasan. Bu benim kişisel blogum.
 
-## 📝 Son Blog Yazıları
+## Son Yazılar
 
-{% for post in site.posts limit:5 %}
-  <div style="margin-bottom: 20px; padding: 15px; border-left: 3px solid #00ff41;">
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p style="color: #8b949e;">{{ post.date | date: "%d %B %Y" }}</p>
-    <p>{{ post.excerpt }}</p>
-  </div>
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url | relative_url }})  
+  *{{ post.date | date: "%d %B %Y" }}*
 {% endfor %}
-
----
-
-## 🚀 Hakkımda
-
-Teknoloji, yazılım ve kişisel gelişim üzerine yazılar paylaşıyorum.
-
-## 📬 İletişim
-
-GitHub: [@hasangokaymuruz](https://github.com/hasangokaymuruz)
