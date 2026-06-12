@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔥 {{ site.title }} 🔥</h1>
+            <p>{{ site.description }}</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">🏠 Ana Sayfa</a></li>
+                <li><a href="{{ '/hakkimda' | relative_url }}">👤 Hakkımda</a></li>
+                <li><a href="{{ '/iletisim' | relative_url }}">📧 İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main>
+            {{ content }}
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 {{ site.title }} - Tüm hakları saklıdır</p>
+            <p>❤️ GitHub Pages ile yapıldı</p>
+        </div>
+    </footer>
+</body>
+</html>
